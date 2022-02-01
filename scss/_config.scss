@@ -1,0 +1,61 @@
+/* source-code-pro-regular - latin */
+@font-face {
+  font-family: 'oswald';
+  src: url('../fonts/Oswald/static/Oswald-Medium.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Oswald/static/Oswald-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Oswald/static/Oswald-Bold.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'source code pro';
+  src: url('../fonts/Source_Code_Pro/static/SourceCodePro-Medium.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Source_Code_Pro/static/SourceCodePro-Regular.ttf'); /* IE9 Compat Modes */
+}
+// Farben
+$color-text: #373735;
+$grey: #c5c5c5;
+
+//background
+$color-back-main: #fff7f8;
+$color-back-main-secondary: #f9f9f9;
+$color-back-card-hover: #cccccc;
+
+//keyframes
+
+@keyframes blink {
+  0%{
+    opacitiy: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1{
+  font-family:'oswald';
+  color: $color-text;
+  font-size: 2.4rem;
+}
+
+h2{
+  font-family:'oswald';
+  color: $color-text;
+  font-size: 2.4rem;
+}
+h3{
+  font-family:'oswald';
+  color: $color-text;
+  font-size: 1.4rem;
+}
+
+
+p{
+  font-family:'oswald';
+  color: $color-text;
+}
