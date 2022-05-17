@@ -1,26 +1,17 @@
-//Farben
+.section{
+  margin-top: 6rem;
+  .section-row{
+    margin-bottom: 3rem;
 
-.grey{
-  color: $grey;
-}
-a{
-  color: $color-text;
-}
-
-.center{text-align: center}
-
-.margin-top{
-  margin: 1rem 0;
-}
-.flex{
-  display: flex;
-  flex-wrap: wrap;
-  &.-centered{ justify-content: center}
-  &.-around{ justify-content: space-around}
-  &.-between{ justify-content: space-between}
-
-  @include resp(567px){
-  justify-content: center;
   }
+
+  // Unter dem Brakpoint medium
+  @include resp(760px){
+    .section-row{ margin-bottom: 0;}
+  }
+  .phone-section-row{
+    margin-bottom: 2rem;
+  }
+
 }
 
