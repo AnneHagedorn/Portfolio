@@ -5,9 +5,16 @@
 //Index seite main css
 
 
+// Teaser boxen
 
-  .one{
+.teaserboxen{
+  >* {
+    padding: 2rem 0;
+  }
+}
+  .teaserbox{
     position: relative;
+
 
 
     &:after{
@@ -19,7 +26,7 @@
       left: -29px;
       font-family: playfair;
       color: transparent;
-      -webkit-text-stroke: 2px #FFF122;
+      -webkit-text-stroke: 2px  var(--firstcolor);
       letter-spacing: 3px;
       transition: 0.5s ease-out;
     }

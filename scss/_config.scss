@@ -6,6 +6,14 @@
   src: url('../fonts/play-fair/static/PlayfairDisplay-SemiBold.ttf'); /* IE9 Compat Modes */
 }
 
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald/static/Oswald-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Oswald/static/Oswald-ExtraLight.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Oswald/static/Oswald-Light.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Oswald/static/Oswald-Regular.ttf'); /* IE9 Compat Modes */
+}
+
 *{
   margin: 0;
   padding: 0;

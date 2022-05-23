@@ -1,3 +1,23 @@
+:root {
+  --firstcolor: #FFF122;
+}
+
+//basic styles
+
+h1, h2, h3{
+  font-family: 'playfair';
+}
+p{
+  font-family: 'Oswald';
+}
+
+//basic Klassen
+
+.txt-center{text-align: center;}
+.overflow-hidden{ overflow: hidden;}
+.display-none{display: none;}
+
+
 .section{
   margin-top: 6rem;
   .section-row{
@@ -6,12 +26,13 @@
   }
 
   // Unter dem Brakpoint medium
-  @include resp(760px){
-    .section-row{ margin-bottom: 0;}
-  }
+
   .phone-section-row{
     margin-bottom: 2rem;
   }
+
+
+
 
 }
 

@@ -2,40 +2,35 @@
   height: 100vh;
   position: relative;
   background: url(../images/header/header-img-02.jpg);
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
+  .header-child{
+    height: 100vh;
+  }
+
   .first-headline{
     font-family: 'playfair';
     color: transparent;
-    -webkit-text-stroke: 1px #FFF122;
+    font-size: clamp(1rem,5.5vw,8rem);
+    -webkit-text-stroke: 1px var(--firstcolor);
     letter-spacing: 2px;
-    font-size: 6rem;
-    position: absolute;
     top: 50%;
-    left: 9%;;
+    left: 9%;
 
   }
-
 }
-
+//Animation
 #fill-color{
-  color: #FFF122;
-  -webkit-text-stroke: 0px #FFF122;
+  color: var(--firstcolor);
+  -webkit-text-stroke: 0px  var(--firstcolor);
 }
 
 //.st1{font-family:'TwCenMT-Regular';}
-.st3{fill:none;stroke:#FFF122;stroke-miterlimit:10;}
+.st3{fill:none;stroke:var(--firstcolor);stroke-miterlimit:10;}
 #portfolio{
 
-  max-width: 1200px;
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 12%;
-  transform: translate(-50%, 0);
 
   path:nth-child(1){
     stroke-dasharray: 396px; stroke-dashoffset: 396px;
